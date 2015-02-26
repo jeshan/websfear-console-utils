@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "WebsFear console utils",
+  "permissions": ["contextMenus"],
+  "version": "0.1",
+
+
+  "description": "Some console utils for the application server that rhymes with it",
+
+
+  "author": "Jeshan G. BABOOA",
+  "background": { "scripts": ["background.js"] },
+  "content_scripts": [{
+	"matches": ["*://*/ibm/console/*"], 
+	"all_frames": true,
+	"js": ["jquery-2.1.0.min.js", "content.js"]}]
+}
