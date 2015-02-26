@@ -8,4 +8,4 @@ To customise your shortcuts, in the content.js file, modify the variables *commo
 
 Then load the extension into Chrome/Chromium.
 
-No copyright is claimed in this repository, except the jQuery dependency one has its own licence.
+No copyright is claimed in this repository, except the jQuery dependency has its own licence.
